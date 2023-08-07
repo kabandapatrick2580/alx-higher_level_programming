@@ -1,1 +1,385 @@
-{"payload":{"allShortcutsEnabled":true,"path":"0x00-python-hello_world","repo":{"id":649538551,"defaultBranch":"main","name":"alx-higher_level_programming","ownerLogin":"rugema3","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2023-06-05T07:18:08.000+02:00","ownerAvatar":"https://avatars.githubusercontent.com/u/29973789?v=4","public":true,"private":false,"isOrgOwned":false},"currentUser":{"id":124207147,"login":"kabandapatrick2580","userEmail":"sendsome2019@gmail.com"},"refInfo":{"name":"80a33546db6c74c879e9e5b6f0233eb43ec5b322","listCacheKey":"v0:1685942288.630811","canEdit":false,"refType":"tree","currentOid":"80a33546db6c74c879e9e5b6f0233eb43ec5b322"},"tree":{"items":[{"name":"0-run","path":"0x00-python-hello_world/0-run","contentType":"file"},{"name":"1-run_inline","path":"0x00-python-hello_world/1-run_inline","contentType":"file"},{"name":"10-check_cycle.c","path":"0x00-python-hello_world/10-check_cycle.c","contentType":"file"},{"name":"10-linked_lists.c","path":"0x00-python-hello_world/10-linked_lists.c","contentType":"file"},{"name":"10-main.c","path":"0x00-python-hello_world/10-main.c","contentType":"file"},{"name":"100-write.py","path":"0x00-python-hello_world/100-write.py","contentType":"file"},{"name":"101-compile","path":"0x00-python-hello_world/101-compile","contentType":"file"},{"name":"102-magic_calculation.py","path":"0x00-python-hello_world/102-magic_calculation.py","contentType":"file"},{"name":"2-print.py","path":"0x00-python-hello_world/2-print.py","contentType":"file"},{"name":"3-print_number.py","path":"0x00-python-hello_world/3-print_number.py","contentType":"file"},{"name":"4-print_float.py","path":"0x00-python-hello_world/4-print_float.py","contentType":"file"},{"name":"5-print_string.py","path":"0x00-python-hello_world/5-print_string.py","contentType":"file"},{"name":"6-concat.py","path":"0x00-python-hello_world/6-concat.py","contentType":"file"},{"name":"7-edges.py","path":"0x00-python-hello_world/7-edges.py","contentType":"file"},{"name":"8-concat_edges.py","path":"0x00-python-hello_world/8-concat_edges.py","contentType":"file"},{"name":"9-easter_egg.py","path":"0x00-python-hello_world/9-easter_egg.py","contentType":"file"},{"name":"README.md","path":"0x00-python-hello_world/README.md","contentType":"file"},{"name":"cycle","path":"0x00-python-hello_world/cycle","contentType":"file"},{"name":"list.h","path":"0x00-python-hello_world/list.h","contentType":"file"},{"name":"lists.h","path":"0x00-python-hello_world/lists.h","contentType":"file"},{"name":"main.py","path":"0x00-python-hello_world/main.py","contentType":"file"}],"templateDirectorySuggestionUrl":null,"readme":{"displayName":"README.md","richText":"<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><h1 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-0x00-python---hello-world\" class=\"anchor\" aria-hidden=\"true\" href=\"#0x00-python---hello-world\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>0x00. Python - Hello, World</h1>\n<h1 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-resources\" class=\"anchor\" aria-hidden=\"true\" href=\"#resources\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Resources</h1>\n<b>Read or watch:</b>\n<ul dir=\"auto\">\n<li><a href=\"https://intranet.alxswe.com/rltoken/JsFCs_NBzMAR7-XPAZ9BoA\" rel=\"nofollow\">The Python tutorial (only the first three chapters below)</a></li>\n<li><a href=\"https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg\" rel=\"nofollow\">Whetting Your Appetite</a>\n</li><li><a href=\"https://intranet.alxswe.com/rltoken/RVpfAuagCo9SdfYeoHd6jg\" rel=\"nofollow\">Using the Python Interpreter</a></li>\n<li><a href=\"https://intranet.alxswe.com/rltoken/kifRlLG2iMX5AZiW8lrCMg\" rel=\"nofollow\">An Informal Introduction to Python (Read up until “3.1.2. Strings” included)</a></li>\n<li><a href=\"https://intranet.alxswe.com/rltoken/Ju0J8BxkuPX5yKZctyKfsQ\" rel=\"nofollow\"> How To Use String Formatters in Python 3</a></li>\n<li><a href=\"https://intranet.alxswe.com/rltoken/szBsJ-Qyig_RrImN7RGlOg\" rel=\"nofollow\">Learn to Program</a></li>\n<li><a href=\"https://intranet.alxswe.com/rltoken/tgYt-0zVy1T4sDlE9ohxnA\" rel=\"nofollow\">Pycodestyle – Style Guide for Python Code</a></li>\n</ul>\n<h1 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-requirements\" class=\"anchor\" aria-hidden=\"true\" href=\"#requirements\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Requirements</h1>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-python-scripts\" class=\"anchor\" aria-hidden=\"true\" href=\"#python-scripts\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Python Scripts</h2>\n<ul dir=\"auto\">\n<li>Allowed editors: vi, vim, emacs</li>\n<li>All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)</li>\n<li>All your files should end with a new line</li>\n<li>The first line of all your files should be exactly #!/usr/bin/python3</li>\n<li>A README.md file at the root of the repo, containing a description of the repository</li>\n<li>A README.md file, at the root of the folder of this project, is mandatory</li>\n<li>Your code should use the pycodestyle (version 2.8.*) </li>\n<li>All your files must be executable</li>\n<li>The length of your files will be tested using wc</li>\n</ul>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-shell-scripts\" class=\"anchor\" aria-hidden=\"true\" href=\"#shell-scripts\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Shell Scripts</h2>\n<ul dir=\"auto\">\n<li>Allowed editors: vi, vim, emacs</li>\n<li>All your scripts will be tested on Ubuntu 20.04 LTS</li>\n<li>All your scripts should be exactly two lines long (wc -l file should print 2)</li>\n<li>All your files should end with a new line</li>\n<li>The first line of all your files should be exactly #!/bin/bash</li>\n<li>All your files must be executable</li>\n</ul>\n<h1 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-tasks\" class=\"anchor\" aria-hidden=\"true\" href=\"#tasks\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Tasks</h1>\n<pre>0. Run Python file\nmandatory\nWrite a Shell script that runs a Python script.\n<p dir=\"auto\">The Python file name will be saved in the environment variable $PYFILE</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 0-run</p>\n<ol dir=\"auto\">\n<li>Run inline\nmandatory\nWrite a Shell script that runs Python code.</li>\n</ol>\n<p dir=\"auto\">The Python code will be saved in the environment variable $PYCODE</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 1-run_inline</p>\n<ol start=\"2\" dir=\"auto\">\n<li>Hello, print\nmandatory\nWrite a Python script that prints exactly \"Programming is like building a multilingual puzzle, followed by a new line.</li>\n</ol>\n<p dir=\"auto\">Use the function print</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 2-print.py</p>\n<ol start=\"3\" dir=\"auto\">\n<li>Print integer\nmandatory\nComplete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nThe output of the script should be:\nthe number, followed by Battery street,\nfollowed by a new line\nYou are not allowed to cast the variable number into a string\nYour code must be 3 lines long\nYou have to use f-strings tips</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 3-print_number.py</p>\n<ol start=\"4\" dir=\"auto\">\n<li>Print float\nmandatory\nComplete the source code in order to print the float stored in the variable number with a precision of 2 digits.</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nThe output of the program should be:\nFloat:, followed by the float with only 2 digits\nfollowed by a new line\nYou are not allowed to cast number to string\nYou have to use f-strings</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 4-print_float.py</p>\n<ol start=\"5\" dir=\"auto\">\n<li>Print string\nmandatory\nComplete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nThe output of the program should be:\n3 times the value of str\nfollowed by a new line\nfollowed by the 9 first characters of str\nfollowed by a new line\nYou are not allowed to use any loops or conditional statement\nYour program should be maximum 5 lines long</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 5-print_string.py</p>\n<ol start=\"6\" dir=\"auto\">\n<li>Play with strings\nmandatory\nComplete this source code to print Welcome to Holberton School!</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nYou are not allowed to use any loops or conditional statements.\nYou have to use the variables str1 and str2 in your new line of code\nYour program should be exactly 5 lines long</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 6-concat.py</p>\n<ol start=\"7\" dir=\"auto\">\n<li>Copy - Cut - Paste\nmandatory\nComplete this source code</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nYou are not allowed to use any loops or conditional statements\nYour program should be exactly 8 lines long\nword_first_3 should contain the first 3 letters of the variable word\nword_last_2 should contain the last 2 letters of the variable word\nmiddle_word should contain the value of the variable word without the first and last letters</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 7-edges.py</p>\n<ol start=\"8\" dir=\"auto\">\n<li>Create a new sentence\nmandatory\nComplete this source code to print object-oriented programming with Python, followed by a new line.</li>\n</ol>\n<p dir=\"auto\">You can find the source code here\nYou are not allowed to use any loops or conditional statements\nYour program should be exactly 5 lines long\nYou are not allowed to create new variables\nYou are not allowed to use string literals</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 8-concat_edges.py</p>\n<ol start=\"9\" dir=\"auto\">\n<li>Easter Egg\nmandatory\nWrite a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.</li>\n</ol>\n<p dir=\"auto\">Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 9-easter_egg.py</p>\n<ol start=\"10\" dir=\"auto\">\n<li>Linked list cycle\nmandatory\nTechnical interview preparation:</li>\n</ol>\n<p dir=\"auto\">You are not allowed to google anything\nWhiteboard first\nThis task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.\nWrite a function in C that checks if a singly linked list has a cycle in it.</p>\n<p dir=\"auto\">Prototype: int check_cycle(listint_t *list);\nReturn: 0 if there is no cycle, 1 if there is a cycle\nRequirements:</p>\n<p dir=\"auto\">Only these functions are allowed: write, printf, putchar, puts, malloc, free</p>\n<p dir=\"auto\">Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 10-check_cycle.c, lists.h</p>\n<ol start=\"11\" dir=\"auto\">\n<li>Hello, write\n#advanced\nWrite a Python script that prints exactly and that piece of art is useful - Dora Korpar, 2015-10-19, followed by a new line.</li>\n</ol>\n<p dir=\"auto\">Use the function write from the sys module\nYou are not allowed to use print\nYour script should print to stderr\nYour script should exit with the status code 1</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 100-write.py</p>\n<ol start=\"12\" dir=\"auto\">\n<li>Compile\n#advanced\nWrite a script that compiles a Python script file.</li>\n</ol>\n<p dir=\"auto\">The Python file name will be stored in the environment variable $PYFILE</p>\n<p dir=\"auto\">The output filename has to be $PYFILEc (ex: export PYFILE=my_main.py =&gt; output filename: my_main.pyc)</p>\n<p dir=\"auto\">Repo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 101-compile</p>\n<ol start=\"13\" dir=\"auto\">\n<li>ByteCode -&gt; Python #1\n#advanced\nWrite the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:</li>\n</ol>\n<p dir=\"auto\">Tip: Python bytecode\nRepo:</p>\n<p dir=\"auto\">GitHub repository: alx-higher_level_programming\nDirectory: 0x00-python-hello_world\nFile: 102-magic_calculation.py</p>\n</pre>\n</article>","errorMessage":null,"headerInfo":{"toc":[{"level":1,"text":"0x00. Python - Hello, World","anchor":"0x00-python---hello-world","htmlText":"0x00. Python - Hello, World"},{"level":1,"text":"Resources","anchor":"resources","htmlText":"Resources"},{"level":1,"text":"Requirements","anchor":"requirements","htmlText":"Requirements"},{"level":2,"text":"Python Scripts","anchor":"python-scripts","htmlText":"Python Scripts"},{"level":2,"text":"Shell Scripts","anchor":"shell-scripts","htmlText":"Shell Scripts"},{"level":1,"text":"Tasks","anchor":"tasks","htmlText":"Tasks"}],"siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Frugema3%2Falx-higher_level_programming%2Ftree%2F80a33546db6c74c879e9e5b6f0233eb43ec5b322%2F0x00-python-hello_world"}},"totalCount":21,"showBranchInfobar":false},"fileTree":{"":{"items":[{"name":"0x00-python-hello_world","path":"0x00-python-hello_world","contentType":"directory"},{"name":"0x01-python-if_else_loops_functions","path":"0x01-python-if_else_loops_functions","contentType":"directory"},{"name":"0x02-python-import_modules","path":"0x02-python-import_modules","contentType":"directory"},{"name":"0x03-python-data_structures","path":"0x03-python-data_structures","contentType":"directory"},{"name":"0x04-python-more_data_structures","path":"0x04-python-more_data_structures","contentType":"directory"},{"name":"0x05-python-exceptions","path":"0x05-python-exceptions","contentType":"directory"},{"name":"0x06-python-classes","path":"0x06-python-classes","contentType":"directory"},{"name":"0x07-python-test_driven_development","path":"0x07-python-test_driven_development","contentType":"directory"},{"name":"0x08-python-more_classes","path":"0x08-python-more_classes","contentType":"directory"},{"name":"0x09-python-everything_is_object","path":"0x09-python-everything_is_object","contentType":"directory"},{"name":"0x0A-python-inheritance","path":"0x0A-python-inheritance","contentType":"directory"},{"name":"0x0B-python-input_output","path":"0x0B-python-input_output","contentType":"directory"},{"name":"0x0C-python-almost_a_circle","path":"0x0C-python-almost_a_circle","contentType":"directory"},{"name":"0x17-doubly_linked_lists","path":"0x17-doubly_linked_lists","contentType":"directory"},{"name":"README.md","path":"README.md","contentType":"file"}],"totalCount":15}},"fileTreeProcessingTime":22.434632,"foldersToFetch":[],"showSurveyBanner":false,"showCodeNavSurvey":true,"csrf_tokens":{"/rugema3/alx-higher_level_programming/branches":{"post":"Iam_o8n3zLhwwEa4oqa1M7QsHPF55ekQQ6HBdhMDmeLNaae6M5GzZLWjLErgxgCvHS3sqaYu3hi6UBuyvVFGhA"}}},"title":"alx-higher_level_programming/0x00-python-hello_world at 80a33546db6c74c879e9e5b6f0233eb43ec5b322 · rugema3/alx-higher_level_programming","locale":"en"}
+0. Run Python file
+mandatory
+Write a Shell script that runs a Python script.
+
+The Python file name will be saved in the environment variable $PYFILE
+
+guillaume@ubuntu:~/py/0x00$ cat main.py 
+#!/usr/bin/python3
+print("Best School")
+
+guillaume@ubuntu:~/py/0x00$ export PYFILE=main.py
+guillaume@ubuntu:~/py/0x00$ ./0-run
+Best School
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 0-run
+  
+1. Run inline
+mandatory
+Write a Shell script that runs Python code.
+
+The Python code will be saved in the environment variable $PYCODE
+
+guillaume@ubuntu:~/py/0x00$ export PYCODE='print(f"Best School: {88+10}")'
+guillaume@ubuntu:~/py/0x00$ ./1-run_inline 
+Best School: 98
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 1-run_inline
+  
+2. Hello, print
+mandatory
+Write a Python script that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+
+Use the function print
+guillaume@ubuntu:~/py/0x00$ ./2-print.py 
+"Programming is like building a multilingual puzzle
+guillaume@ubuntu:~/py/0x00$
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 2-print.py
+  
+3. Print integer
+mandatory
+Complete this source code in order to print the integer stored in the variable number, followed by Battery street, followed by a new line.
+
+You can find the source code here
+The output of the script should be:
+the number, followed by Battery street,
+followed by a new line
+You are not allowed to cast the variable number into a string
+Your code must be 3 lines long
+You have to use f-strings tips
+guillaume@ubuntu:~/py/0x00$ ./3-print_number.py
+98 Battery street
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 3-print_number.py
+  
+4. Print float
+mandatory
+Complete the source code in order to print the float stored in the variable number with a precision of 2 digits.
+
+You can find the source code here
+The output of the program should be:
+Float:, followed by the float with only 2 digits
+followed by a new line
+You are not allowed to cast number to string
+You have to use f-strings
+guillaume@ubuntu:~/py/0x00$ ./4-print_float.py
+Float: 3.14
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 4-print_float.py
+  
+5. Print string
+mandatory
+Complete this source code in order to print 3 times a string stored in the variable str, followed by its first 9 characters.
+
+You can find the source code here
+The output of the program should be:
+3 times the value of str
+followed by a new line
+followed by the 9 first characters of str
+followed by a new line
+You are not allowed to use any loops or conditional statement
+Your program should be maximum 5 lines long
+guillaume@ubuntu:~/py/0x00$ ./5-print_string.py 
+Holberton SchoolHolberton SchoolHolberton School
+Holberton
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 5-print_string.py
+  
+6. Play with strings
+mandatory
+Complete this source code to print Welcome to Holberton School!
+
+You can find the source code here
+You are not allowed to use any loops or conditional statements.
+You have to use the variables str1 and str2 in your new line of code
+Your program should be exactly 5 lines long
+guillaume@ubuntu:~/py/0x00$ ./6-concat.py
+Welcome to Holberton School!
+guillaume@ubuntu:~/py/0x00$ wc -l 6-concat.py
+5 6-concat.py
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 6-concat.py
+  
+7. Copy - Cut - Paste
+mandatory
+Complete this source code
+
+You can find the source code here
+You are not allowed to use any loops or conditional statements
+Your program should be exactly 8 lines long
+word_first_3 should contain the first 3 letters of the variable word
+word_last_2 should contain the last 2 letters of the variable word
+middle_word should contain the value of the variable word without the first and last letters
+guillaume@ubuntu:~/py/0x00$ ./7-edges.py
+First 3 letters: Hol
+Last 2 letters: on
+Middle word: olberto
+guillaume@ubuntu:~/py/0x00$ wc -l 7-edges.py
+8 7-edges.py
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 7-edges.py
+  
+8. Create a new sentence
+mandatory
+Complete this source code to print object-oriented programming with Python, followed by a new line.
+
+You can find the source code here
+You are not allowed to use any loops or conditional statements
+Your program should be exactly 5 lines long
+You are not allowed to create new variables
+You are not allowed to use string literals
+guillaume@ubuntu:~/py/0x00$ ./8-concat_edges.py
+object-oriented programming with Python
+guillaume@ubuntu:~/py/0x00$ wc -l 8-concat_edges.py
+5 8-concat_edges.py
+guillaume@ubuntu:~/py/0x00$ 
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 8-concat_edges.py
+  
+9. Easter Egg
+mandatory
+Write a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line.
+
+Your script should be maximum 98 characters long (please check with wc -m 9-easter_egg.py)
+guillaume@ubuntu:~/py/0x00$ ./9-easter_egg.py
+The Zen of Python, by Tim Peters
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+guillaume@ubuntu:~/py/0x00$
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 9-easter_egg.py
+  
+10. Linked list cycle
+mandatory
+Technical interview preparation:
+
+You are not allowed to google anything
+Whiteboard first
+This task and all future technical interview prep tasks will include checks for the efficiency of your solution, i.e. is your solution’s runtime fast enough, does your solution require extra memory usage / mallocs, etc.
+Write a function in C that checks if a singly linked list has a cycle in it.
+
+Prototype: int check_cycle(listint_t *list);
+Return: 0 if there is no cycle, 1 if there is a cycle
+Requirements:
+
+Only these functions are allowed: write, printf, putchar, puts, malloc, free
+carrie@ubuntu:~/0x00$ cat lists.h
+#ifndef LISTS_H
+#define LISTS_H
+
+#include <stdlib.h>
+
+/**
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * 
+ */
+typedef struct listint_s
+{
+    int n;
+    struct listint_s *next;
+} listint_t;
+
+size_t print_listint(const listint_t *h);
+listint_t *add_nodeint(listint_t **head, const int n);
+void free_listint(listint_t *head);
+int check_cycle(listint_t *list);
+
+#endif /* LISTS_H */
+carrie@ubuntu:~/0x00$ cat 10-linked_lists.c
+#include <stdio.h>
+#include <stdlib.h>
+#include "lists.h"
+
+/**
+ * print_listint - prints all elements of a listint_t list
+ * @h: pointer to head of list
+ * Return: number of nodes
+ */
+size_t print_listint(const listint_t *h)
+{
+    const listint_t *current;
+    unsigned int n; /* number of nodes */
+
+    current = h;
+    n = 0;
+    while (current != NULL)
+    {
+        printf("%i\n", current->n);
+        current = current->next;
+        n++;
+    }
+
+    return (n);
+}
+
+/**
+ * add_nodeint - adds a new node at the beginning of a listint_t list
+ * @head: pointer to a pointer of the start of the list
+ * @n: integer to be included in node
+ * Return: address of the new element or NULL if it fails
+ */
+listint_t *add_nodeint(listint_t **head, const int n)
+{
+    listint_t *new;
+
+    new = malloc(sizeof(listint_t));
+    if (new == NULL)
+        return (NULL);
+
+    new->n = n;
+    new->next = *head;
+    *head = new;
+
+    return (new);
+}
+
+/**
+ * free_listint - frees a listint_t list
+ * @head: pointer to list to be freed
+ * Return: void
+ */
+void free_listint(listint_t *head)
+{
+    listint_t *current;
+
+    while (head != NULL)
+    {
+        current = head;
+        head = head->next;
+        free(current);
+    }
+}
+carrie@ubuntu:~/0x00$ cat 10-main.c
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "lists.h"
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    listint_t *head;
+    listint_t *current;
+    listint_t *temp;
+    int i;
+
+    head = NULL;
+    add_nodeint(&head, 0);
+    add_nodeint(&head, 1);
+    add_nodeint(&head, 2);
+    add_nodeint(&head, 3);
+    add_nodeint(&head, 4);
+    add_nodeint(&head, 98);
+    add_nodeint(&head, 402);
+    add_nodeint(&head, 1024);
+    print_listint(head);
+
+    if (check_cycle(head) == 0)
+        printf("Linked list has no cycle\n");
+    else if (check_cycle(head) == 1)
+        printf("Linked list has a cycle\n");
+
+    current = head;
+    for (i = 0; i < 4; i++)
+        current = current->next;
+    temp = current->next;
+    current->next = head;
+
+    if (check_cycle(head) == 0)
+        printf("Linked list has no cycle\n");
+    else if (check_cycle(head) == 1)
+        printf("Linked list has a cycle\n");
+
+    current = head;
+    for (i = 0; i < 4; i++)
+        current = current->next;
+    current->next = temp;
+
+    free_listint(head);
+
+    return (0);
+}
+carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
+carrie@ubuntu:~/0x00$$ ./cycle 
+1024
+402
+98
+4
+3
+2
+1
+0
+Linked list has no cycle
+Linked list has a cycle
+carrie@ubuntu:~/0x00$
+Solving a problem is already a big win! but finding the best and optimal way to solve it, it’s way better! Think about the most optimal / fastest way to do it.
+
+Repo:
+
+GitHub repository: alx-higher_level_programming
+Directory: 0x00-python-hello_world
+File: 10-check_cycle.c, lists.h
