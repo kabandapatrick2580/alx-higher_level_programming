@@ -1,3 +1,3 @@
-!#/usr/bin/python3
+#!/usr/bin/python3
 age = 24
-print(F":{age:d} Battery street")
+print(f"I am Patrick and I am {age} years Old")
