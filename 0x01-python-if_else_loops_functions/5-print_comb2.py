@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-for number in range(0, 99):
-    print(f"{number:02d}, ", end="")
-    if number == 98:
-        print((number) + 1)
+for numb in range(0, 100):
+    if numb == 99:
+        print("{:d}".format(numb))
+    else:
+        print("{:02d}".format(numb), end=", ")
+
+    
+    
