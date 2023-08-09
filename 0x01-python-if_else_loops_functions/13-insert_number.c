@@ -1,41 +1,42 @@
-#include"lists.h"
+#include "custom_lists.h"
 #include <stdlib.h>
 
 /**
- * insert_node - Inserts a number into a sorted singly linked list.
- * @head: Pointer to the head of the linked list.
- * @number: Number to be inserted.
+ * custom_insert_node - Inserts a value into a sorted singly custom_linked_list.
+ * @custom_head: Pointer to the head of the custom_linked_list.
+ * @custom_value: Value to be inserted.
  *
- * Return: The address of the new node, or NULL if it failed.
+ * Return: The address of the new custom_node, or NULL if it failed.
  */
-listint_t *insert_node(listint_t **head, int number)
+custom_list_t *custom_insert_node(custom_list_t **custom_head, int custom_value)
 {
-	listint_t *nouveau_node, *current;
+	custom_list_t *custom_new_node, *custom_current;
 
-	/* Create a new node */
-	nouveau_node = malloc(sizeof(listint_t));
-	if (nouveau_node == NULL)
+	/* Create a new custom_node */
+	custom_new_node = malloc(sizeof(custom_list_t));
+	if (custom_new_node == NULL)
 		return (NULL);
 
-	nouveau_node->n = number;
-	nouveau_node->next = NULL;
+	custom_new_node->custom_value = custom_value;
+	custom_new_node->custom_next = NULL;
 
-	/* If the list is empty or the number < the head, insert at the beginning */
-	if (*head == NULL || number < (*head)->n)
+	/* If the custom_linked_list is empty or the custom_value < the custom_head, insert at the beginning */
+	if (*custom_head == NULL || custom_value < (*custom_head)->custom_value)
 	{
-		nouveau_node->next = *head;
-		*head = nouveau_node;
-		return (nouveau_node);
+		custom_new_node->custom_next = *custom_head;
+		*custom_head = custom_new_node;
+		return custom_new_node;
 	}
 
-	/* Traverse the list to find the appropriate position */
-	current = *head;
-	while (current->next != NULL && current->next->n < number)
-		current = current->next;
+	/* Traverse the custom_linked_list to find the appropriate position */
+	custom_current = *custom_head;
+	while (custom_current->custom_next != NULL && custom_current->custom_next->custom_value < custom_value)
+		custom_current = custom_current->custom_next;
 
-	/* Insert the new node in the middle or at the end of the list */
-	nouveau_node->next = current->next;
-	current->next = nouveau_node;
+	/* Insert the new custom_node in the middle or at the end of the custom_linked_list */
+	custom_new_node->custom_next = custom_current->custom_next;
+	custom_current->custom_next = custom_new_node;
 
-	return (nouveau_node);
+	return custom_new_node;
 }
+
