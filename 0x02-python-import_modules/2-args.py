@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-    
+    """Print the number of and list of arguments."""
     import sys
     
-    
+   
+    # Subtract 1 to exxclude the script name
     argv_len = len(sys.argv) - 1
 
     if argv_len == 0:
