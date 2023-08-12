@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def print_list_integer(my_list=[]):
 
-    for i, n in enumerate(my_list):
-        print(f"{n}")
+    for n in my_list:
+        print("{}".format(n))
 
 
 my_list = [1, 2, 3, 4, 5]
