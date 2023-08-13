@@ -6,8 +6,8 @@ def replace_in_list(my_list, idx, element):
         my_list[idx] = element
         return my_list
 
+
 if __name__ == "__main__":
-    
     my_list = [1, 2, 3, 4, 5]
     idx = 3
     new_element = 9
