@@ -8,8 +8,3 @@ def square_matrix_simple(matrix=[]):
             row.append(squared_element)
         squared_matrix.append(row)
     return squared_matrix
-
-matrix = [[1,2,3],[3,4,5],[6,7,8,9]]
-square = square_matrix_simple(matrix)
-print(square)
-print(matrix)
