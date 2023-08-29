@@ -8,6 +8,6 @@ def safe_print_list(my_list=[], x=0):
                 counter += 1
         print()
         return counter
-    
+
     except Exception as d:
         print(f"An error occurred while printing the list: {d}")
