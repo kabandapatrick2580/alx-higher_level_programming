@@ -107,12 +107,12 @@ class SinglyLinkedList:
             new_node.next_node = self.head
             self.head = new_node
         else:
-            current = self.head
-            while current.next_node is not None and value >= \
-                    current.next_node.data:
-                current = current.next_node
-            new_node.next_node = current.next_node
-            current.next_node = new_node
+            current_sqr = self.head
+            while current_sqr.next_node is not None and value >= \
+                    current_sqr.next_node.data:
+                current_sqr = current_sqr.next_node
+            new_node.next_node = current_sqr.next_node
+            current_sqr.next_node = new_node
 
     def __str__(self):
         """
@@ -122,9 +122,9 @@ class SinglyLinkedList:
         - str: The string representation of the linked list.
         """
         nodes = []
-        current = self.head
+        current_sqr = self.head
 
-        while current is not None:
-            nodes.append(str(current.data))
-            current = current.next_node
-        return "\n".join(niodes)
+        while current_sqr is not None:
+            nodes.append(str(current_sqr.data))
+            current_sqr = current_sqr.next_node
+        return "\n".join(nodes)
