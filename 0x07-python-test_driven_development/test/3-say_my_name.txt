@@ -1,0 +1,38 @@
+"""
+Test cases for say_my_name module
+==================================
+
+Prints "My name is <first_name> <last_name>"
+
+Usage
+=====
+
+Importing from module:
+    >>> say_my_name = __import__('your_module_name').say_my_name
+
+Printing a full name:
+    >>> say_my_name("John", "Doe")
+    My name is John Doe
+
+Printing only the first name (with an empty last name):
+    >>> say_my_name("Alice")
+    My name is Alice
+
+Printing with an empty first name (TypeError expected):
+    >>> say_my_name("", "Smith")
+    Traceback (most recent call last):
+        ...
+    TypeError: first_name must be a string
+
+Printing with a non-string first name (TypeError expected):
+    >>> say_my_name(123, "Smith")
+    Traceback (most recent call last):
+        ...
+    TypeError: first_name must be a string
+
+Printing with a non-string last name (TypeError expected):
+    >>> say_my_name("John", 123)
+    Traceback (most recent call last):
+        ...
+    TypeError: last_name must be a string
+"""

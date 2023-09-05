@@ -1,0 +1,55 @@
+"""
+Test cases for lazy_matrix_mul module
+======================================
+
+Multiply two matrices using the NumPy module.
+
+Usage
+=====
+
+Importing from module:
+    >>> import numpy as np
+    >>> lazy_matrix_mul = __import__('your_module_name').lazy_matrix_mul
+
+Multiplying two valid matrices:
+    >>> m_a = np.array([[1, 2], [3, 4]])
+    >>> m_b = np.array([[2, 0], [1, 2]])
+    >>> result = lazy_matrix_mul(m_a, m_b)
+    >>> result.tolist()
+    [[4, 4], [10, 8]]
+
+Multiplying matrices with incompatible dimensions (ValueError expected):
+    >>> m_a = np.array([[1, 2, 3], [4, 5, 6]])
+    >>> m_b = np.array([[2, 0], [1, 2]])
+    >>> result = lazy_matrix_mul(m_a, m_b)
+    Traceback (most recent call last):
+        ...
+    ValueError: shapes (2,3) and (2,2) not aligned: 3 (dim 1) != 2 (dim 0)
+
+Multiplying matrices with one being an empty list (ValueError expected):
+    >>> m_a = np.array([])
+    >>> m_b = np.array([[2, 0], [1, 2]])
+    >>> result = lazy_matrix_mul(m_a, m_b)
+    Traceback (most recent call last):
+        ...
+    ValueError: shapes (0,) and (2,2) not aligned: 0 (dim 0) != 2 (dim 0)
+
+Multiplying matrices with one being a single-element matrix:
+    >>> m_a = np.array([[5]])
+    >>> m_b = np.array([[3]])
+    >>> result = lazy_matrix_mul(m_a, m_b)
+    >>> result.tolist()
+    [[15]]
+
+Multiplying matrices with one being an empty matrix (ValueError expected):
+    >>> m_a = np.array([[1, 2], [3, 4]])
+    >>> m_b = np.array([])
+    >>> result = lazy_matrix_mul(m_a, m_b)
+    Traceback (most recent call last):
+        ...
+    ValueError: shapes (2,2) and (0,) not aligned: 2 (dim 1) != 0 (dim 0)
+
+Multiplying matrices with one containing non-integer elements (ValueError expected):
+    >>> m_a = np.array([[1, 2], [3, 4]])
+    >>> m_b = np.array([['a', 2], [1, 2]])
+   

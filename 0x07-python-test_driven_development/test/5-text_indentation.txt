@@ -1,0 +1,48 @@
+"""
+Test cases for text_indentation module
+=======================================
+
+Prints a text with two new lines after each of these characters: '.', '?', and ':'
+
+Usage
+=====
+
+Importing from module:
+    >>> text_indentation = __import__('your_module_name').text_indentation
+
+Printing a text with sentences separated by periods:
+    >>> text_indentation("Hello. This is a test.")
+    Hello.
+    
+    This is a test.
+
+Printing a text with sentences separated by question marks:
+    >>> text_indentation("How are you? I'm fine, thank you.")
+    How are you?
+    
+    I'm fine, thank you.
+
+Printing a text with sentences separated by colons:
+    >>> text_indentation("Today is Monday: It's the beginning of the week.")
+    Today is Monday:
+    
+    It's the beginning of the week.
+
+Printing a text with multiple consecutive separator characters:
+    >>> text_indentation("Hello... World???: This is a test.")
+    Hello...
+    
+    World???
+    
+    This is a test.
+
+Printing an empty text (no output expected):
+    >>> text_indentation("")
+    
+Printing a non-string argument (TypeError expected):
+    >>> text_indentation(123)
+    Traceback (most recent call last):
+        ...
+    TypeError: text must be a string
+"""
+

@@ -1,0 +1,54 @@
+"""
+Test cases for matrix_mul module
+=================================
+
+Multiply two matrices.
+
+Usage
+=====
+
+Importing from module:
+    >>> matrix_mul = __import__('your_module_name').matrix_mul
+
+Multiplying two valid matrices:
+    >>> matrix_mul([[1, 2], [3, 4]], [[2, 0], [1, 2]])
+    [[4, 4], [10, 8]]
+
+Multiplying matrices with one being a single-element matrix:
+    >>> matrix_mul([[5]], [[3]])
+    [[15]]
+
+Multiplying matrices with one being an empty matrix (ValueError expected):
+    >>> matrix_mul([[1, 2], [3, 4]], [])
+    Traceback (most recent call last):
+        ...
+    ValueError: m_b can't be empty or contain empty lists
+
+Multiplying matrices with one containing non-integer or non-float elements (TypeError expected):
+    >>> matrix_mul([[1, 'a'], [3, 4]], [[2, 0], [1, 2]])
+    Traceback (most recent call last):
+        ...
+    TypeError: m_a should contain only integers or floats
+
+Multiplying matrices with rows of different sizes (TypeError expected):
+    >>> matrix_mul([[1, 2], [3], [4, 5]], [[2, 0], [1, 2]])
+    Traceback (most recent call last):
+        ...
+    TypeError: each row of m_a must be of the same size
+
+Multiplying matrices with incompatible dimensions (ValueError expected):
+    >>> matrix_mul([[1, 2, 3], [4, 5, 6]], [[2, 0], [1, 2]])
+    Traceback (most recent call last):
+        ...
+    ValueError: m_a and m_b can't be multiplied
+
+Multiplying matrices with valid dimensions but resulting in a zero matrix:
+    >>> matrix_mul([[1, 2], [3, 4]], [[0, 0], [0, 0]])
+    [[0, 0], [0, 0]]
+
+Multiplying matrices with one being an empty list (ValueError expected):
+    >>> matrix_mul([], [[2, 0], [1, 2]])
+    Traceback (most recent call last):
+        ...
+    ValueError: m_a can't be empty or contain empty lists
+"""

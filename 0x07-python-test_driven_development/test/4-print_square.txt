@@ -1,0 +1,48 @@
+"""
+Test cases for print_square module
+===================================
+
+Prints a square with the character '#' of the given size.
+
+Usage
+=====
+
+Importing from module:
+    >>> print_square = __import__('your_module_name').print_square
+
+Printing a square with size 3:
+    >>> print_square(3)
+    ###
+    ###
+    ###
+
+Printing a square with size 5:
+    >>> print_square(5)
+    #####
+    #####
+    #####
+    #####
+    #####
+
+Printing a square with size 1:
+    >>> print_square(1)
+    #
+
+Printing a square with a negative size (ValueError expected):
+    >>> print_square(-2)
+    Traceback (most recent call last):
+        ...
+    ValueError: size must be a non-negative integer
+
+Printing a square with a non-integer float size (ValueError expected):
+    >>> print_square(2.5)
+    Traceback (most recent call last):
+        ...
+    ValueError: size must be a non-negative integer
+
+Printing a square with a non-integer size (TypeError expected):
+    >>> print_square("3")
+    Traceback (most recent call last):
+        ...
+    TypeError: size must be an integer
+"""
