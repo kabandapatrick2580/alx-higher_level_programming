@@ -1,38 +1,67 @@
-"""
-Test cases for say_my_name module
-==================================
+===========================
+How to Use 3-say_my_name.py
+===========================
 
-Prints "My name is <first_name> <last_name>"
+This modules defines a function ``say_my_name(first_name, last_name="")``.
 
 Usage
 =====
 
-Importing from module:
-    >>> say_my_name = __import__('your_module_name').say_my_name
+``say_my_name(...)`` prints "My name is <first_name> <last_name>".
 
-Printing a full name:
-    >>> say_my_name("John", "Doe")
-    My name is John Doe
+::
 
-Printing only the first name (with an empty last name):
-    >>> say_my_name("Alice")
-    My name is Alice
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("Julius", "Nyerere")
+    My name is Julius Nyerere
 
-Printing with an empty first name (TypeError expected):
-    >>> say_my_name("", "Smith")
+::
+
+    >>> say_my_name("Mickey Mouse", "Lucas")
+    My name is Mickey Mouse Lucas
+
+The parameter ```last_name``` is optional. If no last name is provided,
+an empty string is printed instead.
+
+::
+
+    >>> say_my_name("Julius")
+    My name is Julius 
+
+Invalid Names
+=============
+
+The parameters ``first_name`` and ``last_name``` must be strings. Otherwise,
+a TypeError is raised.
+
+::
+
+    >>> say_my_name(6, "Brandon")
     Traceback (most recent call last):
-        ...
     TypeError: first_name must be a string
 
-Printing with a non-string first name (TypeError expected):
-    >>> say_my_name(123, "Smith")
-    Traceback (most recent call last):
-        ...
-    TypeError: first_name must be a string
+::
 
-Printing with a non-string last name (TypeError expected):
-    >>> say_my_name("John", 123)
+    >>> say_my_name("MeCalister", ["Cavs", "Bakers", "Heat"])
     Traceback (most recent call last):
-        ...
     TypeError: last_name must be a string
-"""
+
+::
+
+    >>> say_my_name({"Kobe": 6, "Bryant": 23}, 7.7)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name(None)
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+At least one name must be provided.
+
+::
+
+    >>> say_my_name()
+    Traceback (most recent call last):
+    TypeError: say_my_name() missing 1 required positional argument: 'first_name'
