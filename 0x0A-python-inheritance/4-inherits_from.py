@@ -1,12 +1,7 @@
 #!/usr/bin/python3
-"""A class MyList that inherits from the built-in list class."""
 
 
-class MyList(list):
-    """A subclass of the list class."""
+def inherits_from(obj, a_class):
+    """Check if an object is an instance that inherits from a given class."""
 
-    def print_sorted(self):
-        """Prints the sorted elements of the list."""
-        
-        sorted_list = sorted(self)
-        print(sorted_list)
+    return issubclass(type(obj), a_class) and type(obj) != a_class
