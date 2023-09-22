@@ -11,7 +11,7 @@ class Test_Base(unittest.TestCase):
     """Definition of class to evaluate test cases for base.py"""
 
     def test_with_id(self):
-        """checking instance of the class"""
+        """Evaluating instance of the class"""
         z1 = Base()
         self.assertIsInstance(z1, Base)
         self.assertFalse(type(z1) == type(Base))
@@ -21,20 +21,20 @@ class Test_Base(unittest.TestCase):
         self.assertFalse(id(z1) == id(z2))
 
     def test_with_none_id(self):
-        """checking when id is none"""
+        """Evaluating when id is none"""
         z1 = Base(id=1)
         self.assertEqual(z1.id, 1)
         z1 = Base(id=3)
         self.assertEqual(z1.id, 3)
 
     def test_with_none_id_increment(self):
-        """checking if id increment correctly"""
+        """Evaluating if id increment correctly"""
         z1 = Base()
         z2 = Base()
         self.assertEqual(z2.id, 2)
 
     def test_id_value(self):
-        """testing value of id"""
+        """evaluating value of id"""
         z1 = Base(50)
         self.assertEqual(z1.id, 50)
         z1 = Base(-7)
@@ -47,14 +47,14 @@ class Test_Base(unittest.TestCase):
         self.assertEqual(z1.id, 4)
 :
     def test_obj_attributes(self):
-        """testing objects attributes"""
+        """evaluating objects attributes"""
         z1 = Base()
         self.assertEqual(z1.__dict__, {'id': 1})
         z2 = Base(90)
         self.assertEqual(z2.__dict__, {'id': 90})
 
     def test_json_string(self):
-        """testing for json string method"""
+        """evaluating for json string method"""
         f1 = Rectangle(10, 7, 2, 8, 30)
         dict_f1 = f1.to_dictionary()
         json_dict_f1 = Base.to_json_string([dict_f1])

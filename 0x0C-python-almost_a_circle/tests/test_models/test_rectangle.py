@@ -14,7 +14,7 @@ class Test_rectangle(unittest.TestCase):
     """
 
     def test_instance_class(self):
-        """Checks for a instance of the class
+        """Evaluate for a instance of the class
         """
         f1 = Rectangle(10, 2)
         self.assertIsInstance(f1, Rectangle)
@@ -26,7 +26,7 @@ class Test_rectangle(unittest.TestCase):
         self.assertFalse(id(f1) == id(f2))
 
     def test_init_attributes(self):
-        """Checks when id is none
+        """Evaluate when id is none
         """
         f1 = Rectangle(10, 60)
         self.assertEqual(f1.id, 1)
@@ -78,7 +78,7 @@ class Test_rectangle(unittest.TestCase):
     def test_raise_errors(self):
         """Check for raises errors
         """
-        # Checks for diferents instances
+        # Evaluate for diferents instances
         with self.assertRaises(TypeError):
             f1 = Rectangle()
         with self.assertRaises(NameError):
@@ -111,7 +111,7 @@ class Test_rectangle(unittest.TestCase):
         with self.assertRaises(ValueError):
             f13 = Rectangle(15, 0)
 
-        # Checks for setters
+        # Evaluate for setters
         with self.assertRaises(TypeError):
             f1.x = "4"
         with self.assertRaises(ValueError):
@@ -128,7 +128,7 @@ class Test_rectangle(unittest.TestCase):
             f1.y = "10"
         with self.assertRaises(ValueError):
             f1.y = -10
-        # Checks for update method
+        # Evaluate for update method
         with self.assertRaises(ValueError):
             f1.update(10, -10, 20, 40)
         with self.assertRaises(TypeError):
@@ -161,7 +161,7 @@ class Test_rectangle(unittest.TestCase):
         self.assertEqual(area, 25)
 
     def test_display(self):
-        """Checks display method
+        """Evaluate display method
         """
         output_1 = "#\n"
         f1 = Rectangle(1, 1)
@@ -194,7 +194,7 @@ class Test_rectangle(unittest.TestCase):
             self.assertEqual(mock_out.getvalue(), output_5)
 
     def test_str(self):
-        """Checks str method
+        """Evaluate str method
         """
         f1 = Rectangle(4, 6, 2, 1, 12)
         self.assertEqual(str(f1), "[Rectangle] (12) 2/1 - 4/6")
@@ -206,7 +206,7 @@ class Test_rectangle(unittest.TestCase):
         self.assertEqual(f4.__str__(), "[Rectangle] (50) 2/1 - 4/6")
 
     def test_update(self):
-        """Checks update method
+        """Evaluate update method
         """
         f1 = Rectangle(10, 10, 10, 10)
         self.assertEqual(f1.__str__(), "[Rectangle] (1) 10/10 - 10/10")
@@ -234,7 +234,7 @@ class Test_rectangle(unittest.TestCase):
         self.assertEqual(f1.__str__(), "[Rectangle] (50) 10/10 - 10/10")
 
     def test_dictionary_representation(self):
-        """Checks to_dictionary method
+        """Evaluate to_dictionary method
         """
         f1 = Rectangle(10, 2, 1, 9)
         f1_dictionary = r1.to_dictionary()
