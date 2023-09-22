@@ -72,7 +72,8 @@ class Base:
 
     @classmethod
     def load_from_file(cls):
-        """this is a Class method that returns a list of instances from a JSON file
+        """this is a Class method that returns a
+        list of instances from a JSON file
         Return:
             List of instances
         """
