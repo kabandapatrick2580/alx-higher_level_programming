@@ -1,8 +1,17 @@
 #!/usr/bin/python3
+"""3-is_kind_class module"""
 
 
 def is_kind_of_class(obj, a_class):
-    """Check if an object is an instance of/inherited from, a given class."""
+    """
+    Description: Check if an object is an instance
+    of a class or inherited from, a given class.
+
+    Args:
+    obj: object to be compared
+    a_class: a class ti be compared
+    Return: True if it belongs to a classor subclass, False Otherwise
+    """
 
     if isinstance(obj, a_class):
         return True
