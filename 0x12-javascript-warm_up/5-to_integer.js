@@ -1,5 +1,5 @@
 #!/usr/bin/node
-function to_integer () {
+function toInteger () {
   const argum = process.argv[2];
   const convertedNum = parseInt(argum);
   if (isNaN(convertedNum)) {
@@ -8,4 +8,4 @@ function to_integer () {
     console.log(`My number : ${convertedNum}`);
   }
 }
-to_integer();
+toInteger();
