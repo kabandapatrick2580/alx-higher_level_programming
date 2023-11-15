@@ -20,5 +20,5 @@ if (args.length <= 1) {
       secondLargest = currentNumber;
     }
   }
-  console.log(firstLargest);
+  console.log(secondLargest);
 }
