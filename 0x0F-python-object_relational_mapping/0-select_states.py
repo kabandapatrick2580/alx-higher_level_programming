@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-import MySQLdb
-from sys import argv
 """
 This script connects to a MySQL database and retrieves a list of states
 from the 'states' table, ordering them by ID in ascending order.
@@ -16,6 +14,9 @@ Arguments:
 Example:
     ./script.py root secret mydatabase
 """
+import MySQLdb
+from sys import argv
+
 if __name__ == '__main__':
     # Check if all required command-line arguments are provided
     if len(argv) != 4:
