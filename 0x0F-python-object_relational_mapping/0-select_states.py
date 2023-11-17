@@ -41,6 +41,7 @@ if __name__ == '__main__':
 
         for row in results:
             print(row)
+
     except MySQLdb.Error as err:
         # Handle any MySQL database errors and print an error message
         print("Error:", err)
