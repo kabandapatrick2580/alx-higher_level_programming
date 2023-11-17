@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # Get command-line arguments
     username, password, database = argv[1:4]
 
-    try: 
+    try:
         db = MySQLdb.connect(
                 host="localhost",
                 user=argv[1],
@@ -41,8 +41,6 @@ if __name__ == '__main__':
 
         for row in results:
             print(row)
-
-    
     except MySQLdb.Error as err:
         # Handle any MySQL database errors and print an error message
         print("Error:", err)
