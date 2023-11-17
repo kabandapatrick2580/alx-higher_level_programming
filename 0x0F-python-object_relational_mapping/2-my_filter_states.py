@@ -53,7 +53,7 @@ if __name__ == '__main__':
         # Display the results
         for row in results:
             print(row)
-
+        db.close()
     except MySQLdb.Error as err:
         # Handle any MySQL database errors and print an error message
         print("MySQL Error:", err)
