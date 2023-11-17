@@ -1,7 +1,21 @@
 #!/usr/bin/python3
 import MySQLdb
 from sys import argv
+"""
+This script connects to a MySQL database and retrieves a list of states
+from the 'states' table, ordering them by ID in ascending order.
 
+Usage:
+    ./script.py <username> <password> <database>
+
+Arguments:
+    username: MySQL username
+    password: MySQL password
+    database: MySQL database name
+
+Example:
+    ./script.py root secret mydatabase
+"""
 if __name__ == '__main__':
     # Check if all required command-line arguments are provided
     if len(argv) != 4:
@@ -12,9 +26,12 @@ if __name__ == '__main__':
 
     try: 
         db = MySQLdb.connect(
-                host="localhost", user=argv[1], passwd=argv[2],
-                db=argv[3], port=3306)
-
+                host="localhost",
+                user=argv[1],
+                passwd=argv[2],
+                db=argv[3],
+                port=3306
+                )
         cursor = db.cursor()
 
         cursor.execute("SELECT * FROM states ORDER BY id ASC")
