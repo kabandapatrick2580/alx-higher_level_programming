@@ -18,7 +18,7 @@ if __name__ == '__main__':
         argv[1], argv[2], argv[3])
 
     engine = create_engine(db_engine)
-    a_session = sessionmaker(bind=engine)()
+    a_session = sessionmaker(bind=engine)
 
     states = a_session.query(State).order_by(State.id).all()
 
